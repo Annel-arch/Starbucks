@@ -10,24 +10,107 @@
 <body>
     <header>
     <div class="contenedor1">
-        <div class="logo">
-            <img src="https://www.starbucks.pe/icons/logo/Vector.png" alt="logo-starbucks">
-        </div>
-        <div class="botones">
-            <div class="botones_izquierda">
-                <p>MENÚ</p>
-                <p>REWARDS</p>
-                <P>TIENDAS</P>
+        <div class="botones_izquierda">
+            <div class="logo">
+                <img src="https://www.starbucks.pe/icons/logo/Vector.png" alt="logo-starbucks">
             </div>
-            <div class="botones_derecha">
-                <P>Encuentra tu tienda</P>
-                <button>Iniciar Sesión</button>
-                <button>Regístrate</button>
-            </div>
+            <a href="https://www.starbucks.pe/ecommerce/section">MENU</a>
+            <a href="https://www.starbucks.pe/rewards">REWARDS</a>
+            <a href="https://www.starbucks.pe/ecommerce/store">TIENDAS</a>
             
+        </div>
+        <div class="botones_derecha">
+            <div class ="localizacion">
+                <img src="icono_ubicacion.png" alt="Icono de ubicación" class="icon_ubi">
+                <a href="https://www.starbucks.pe/ecommerce/menu/store-locator" class="encuentra">Encuentra tu tienda</a>
+            </div>
+            <button id="Login" onclick="window.location.href='https://www.starbucks.pe/rewards/auth/sign-in';">Iniciar Sesión</button>
+            <button id="Registrate" onclick="window.location.href='https://www.starbucks.pe/rewards/auth/create-account';">Regístrate</button>            
         </div>
     </div>
     </header>
-   
+   <div class="tarjetas">
+    <div class="tarjeta">
+        <div class="imagen">
+            <img src="cakes1.png" alt="Epoca Halloween">
+        </div>
+        <div class="texto">
+            <h1> Vive esta espeluznante temporada.</h1>
+            <h2> Endulza tu tarde con los nuevos Cake Pops y Galleta. </h2>
+            <button class="Pedir" onclick="window.location.href='https://www.starbucks.pe/ecommerce/section/halloween/galletas';">Pedir aquí</button>
+        </div>
+    </div>
+    <div class="tarjeta">
+        <div class="imagen">
+            <img src="bebidas2.png" alt="Bebidas">
+        </div>
+        <div class="texto">
+            <h1> Nuevas bebidas con limonada</h1>
+            <h2> Disfruta tu día de manera diferente con sabores únicos. </h2>
+            <button class="Pedir" onclick="window.location.href='https://www.starbucks.pe/ecommerce/section/bebidas/otras-bebidas-frias';">Pídelas aquí</button>
+        </div>
+    </div>
+    <div class="tarjeta" id="diferente">
+        <div class="imagen" >
+            <img src="chocolate3.png" alt="Bebidas de chocolate">
+        </div>
+        <div class="texto">
+            <h1> Temporada con sabor a chocolate</h1>
+            <h2> Nosotros te lo llevamos para que lo disfrutes donde estés. </h2>
+            <button class="Pedir" onclick="window.location.href='https://www.starbucks.pe/ecommerce/section/bebidas/frappuccinos';">Pídelas aquí</button>
+        </div>
+    </div>
+    <div class="tarjeta" id="diferente">
+        <div class="imagen">
+            <img src="cumple4.png" alt="Celebra con nosotros">
+        </div>
+        <div class="texto">
+            <h1> Queremos celebrar tu cumpleaños ⭐</h1>
+            <h2> Sé miembro Rewards y te regalamos una bebida gratis en el mes de tu cumpleaños. </h2>
+            <button class="Pedir" onclick="window.location.href='https://www.starbucks.pe/pages/starbucks-rewards-terms-and-conditions';">T&C aquí</button>
+        </div>
+    </div>
+   </div>
+   <footer>
+    <div class="columna">
+        <h3>Sobre Nosotros</h3>
+        <ul>Nuestra compañía</ul>
+        <ul>Nuestro Café</ul>
+        <ul>Starbucks Stories</ul>
+        <ul>Servicio al cliente</ul>
+        <ul>Línea y ética</ul>
+    </div>
+    <div class="columna">
+        <h3>Nuestra Cultura</h3>
+        <ul>Cultura y Valores</ul>
+        <ul>Trabaja con Nosotros</ul>
+    </div>
+    <div class="columna">
+        <h3>Impacto Social</h3>
+        <ul>Planeta</ul>
+        <ul>Personas</ul>
+    </div>
+    <div class="columna">
+        <h3>Compras</h3>
+        <ul>Pedidos por la APP</ul>
+        <ul>Pedidos por la Web</ul>
+    </div>
+    <div class="columna">
+        <h3>Políticas</h3>
+        <ul>Política de Privacidad App, Web y Starbucks Rewars</ul>
+        <ul>Términos y condiciones de la web, Delivery, Pick Up y Auto Starbucks</ul>
+        <ul>Términos y condiciones de Starbucks Rewards</ul>
+        <ul>Términos y condiciones de promociones</ul>
+        <ul>Preguntas frecuentes</ul>
+    </div>
+    <div class="columna">
+        <h3>Atención al Cliente</h3>
+        <ul>Teléfono Lima:
+            (01)505-0050</ul>
+        <ul>Teléfono Provincia: 
+            (044)779-009</ul>
+        <ul>Comprobantes electrónicos</ul>
+    </div>
+   </footer>
 </body>
 </html>
